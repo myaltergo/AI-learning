@@ -1,0 +1,50 @@
+     再说IMA知识库助力教师精准讲评和学生个性化学习——附实操步骤 \* { margin: 0; padding: 0; outline: 0; } body { font-family: "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; line-height: 1.6; } .\_\_page\_content\_\_ { max-width: 667px; margin: 0 auto; padding: 20px; text-size-adjust: 100%; color: rgba(0, 0, 0, 0.9); padding-bottom: 64px; } .title { user-select: text; font-size: 22px; line-height: 1.4; margin-bottom: 14px; font-weight: 500; } .\_\_meta\_\_ { color: rgba(0, 0, 0, 0.3); font-size: 15px; line-height: 20px; hyphens: auto; word-break: break-word; margin-bottom: 50px; } .\_\_meta\_\_ .nick\_name { color: #576B95; } .\_\_meta\_\_ .copyright { color: rgba(0, 0, 0, 0.3); background-color: rgba(0, 0, 0, 0.05); padding: 0 4px; margin: 0 10px 10px 0; } blockquote.source { padding: 10px; margin: 30px 0; border-left: 5px solid #ccc; color: #333; font-style: italic; word-wrap: break-word; } blockquote.source a { cursor: pointer; text-decoration: underline; } .item\_show\_type\_0 > section { margin-top: 0; margin-bottom: 24px; } a { color: #576B95; text-decoration: none; cursor: default; } .text\_content { margin-bottom: 50px; user-select: text; font-size: 17px; white-space: pre-wrap; word-wrap: break-word; line-height: 28px; hyphens: auto; } .picture\_content .picture\_item { margin-bottom: 30px; } .picture\_content .picture\_item .picture\_item\_label { text-align: center; } img { max-width: 100%; } .\_\_bottom-bar\_\_ { display: flex; justify-content: space-between; align-items: center; position: fixed; bottom: 0; left: 0; right: 0; height: 64px; padding: 8px 20px; background: white; box-sizing: border-box; border-top: 1px solid rgba(0, 0, 0, 0.2); } .\_\_bottom-bar\_\_ .left { display: flex; align-items: center; font-size: 15px; white-space: nowrap; } .\_\_bottom-bar\_\_ .right { display: flex; } .\_\_bottom-bar\_\_ .sns\_opr\_btn { display: flex; align-items: center; user-select: none; background: transparent; border: 0; color: rgba(0, 0, 0, 0.9); font-size: 14px; } .\_\_bottom-bar\_\_ .sns\_opr\_btn:not(:last-child) { margin-right: 16px; } .\_\_bottom-bar\_\_ .sns\_opr\_btn > img { margin-right: 4px; }
+
+再说IMA知识库助力教师精准讲评和学生个性化学习——附实操步骤
+===============================
+
+原创 樊华岗 樊华岗名班主任工作室 2026-03-06 22:14 河南
+
+> 原文地址: [https://mp.weixin.qq.com/s/u02YwGUHu4bdTGUemB8DkA](https://mp.weixin.qq.com/s/u02YwGUHu4bdTGUemB8DkA)
+
+之所以说再说，是因为关于IMA知识库的使用方法我已经在前面的多期推送中有过详细的介绍，而今天之所以再次提及是因为我今天用它分析学生“学情”的时间将一个截图发到了“一线教师人工智能应用交流群”，立刻引发几位老师追问具体操作路径，可见老师们对于人工智能真正赋能一线教学的需求极为迫切。于是就再一次将具体的操作流程和一些注意事项梳理一下，方便老师们根据自己的实际情况快速上手，当然也想借此机会强调并不是所有的AI工具都适合直接迁移到课堂，也不是所有技术都能无缝对接教学逻辑；毕竟不同的学校有不同的实际情况。
+
+我必须声明的是要想对学生的学情进行精准的分析，就必须获得学生的精准作答情况，而这个并不是人工智能技术或者教师手工录入可以完成的，至少说我自己没有那个能力也没有那个精力去完成这件事情。我们常见的学生作答情况收集方式一般分为客观题和主观题，我相信现在很多学校都有一种扫描题卡的系统，这类系统可以快速方便地自动识别学生客观题作答情况，这里我需要强调的是一定要收集到每一个学生的每一个小题的具体选项，而不仅仅是只有一个分数，这个至关重要。而对于主观题学生的作答情况可能需要借助于教师手动统计或者借助于其他的一些阅卷系统。总之，关于学生作答数据的采集，是IMA知识库发挥价值的前提——没有颗粒度足够细、结构足够准的原始数据，再智能的分析模型也只会“一本正经的胡说八道”。当然我校恰恰有一套完整的学生作答情况收集系统，教师只需在系统中一键导出标准格式的Excel数据包，包含全部所需信息，具体格式如下：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/kumXH7uYmdTzIbsMbPdqXmgxYrFeIkCCRJ6Tf47IqlS4pwoVMW4mguwb5Sb7fgsLGfxsxg9Tg09V04WcKNia3BralOwTricp0ISUvskYqyF6w/640?wx_fmt=png)
+
+当有了这个详细的数据之后，我就可以直接将Excel文件拖入IMA知识库对应的文件夹下，我组建文件夹层级如下：
+
+学生生物限时练数据/学生成绩/高一下学期/，然后在另外一个文件夹里放入这一次测试的试题，文件夹层级为：学生生物限时练数据/作业原始数据/高一下学期/当然我还在学生生物限时练数据这个文件夹下提前存放了高中五本教材、最新的学科课程标准以及一个成绩和试题对应逻辑说明文档，文档内只写了一句话：“数据分析的时间要明白底层逻辑是每一个作业原始数据内的标题和成绩单文件夹内的同一个标题的数据是匹配的。也就是说成绩单的数据是针对学生个人做的相对应的练习题而获得的结果。”（这个逻辑说明文档看似简单，实则非常关键，这样可以让我们后期进行数据分析的时间不用重复撰写提示词）当然，我还会在“学生生物限时联数据”这个文件夹内放了大量的有关作业设计和试题命制相关的专业论文和部分的相关公众号文章链接。另外我还在文件里存放了一个“高中生物综合库”，这个文件为个人搜集的整个高中生物知识点，目前不对外分享。当然即便是没有这些额外资源，IMA知识库依然能基于你导入的标准化作答数据，完成基础学情画像。
+
+当把这些文件资源全部归档到位后，我还根据实际情况对每个文件都进行了“标签”标记，这样方便我后期在对话框中对话的时间快速定位所需数据——比如打上“高一下学期成绩”或者是“高一下学期联考试题”等标签；同时，为避免标签冗余，我只对高频调用、跨场景复用的文件设置复合标签，具体操作老师们可以根据自己的实际需要进行设置。
+
+接下来，我就可以在文件夹“学生生物限时练数据”IMA知识库的对话框中直接提问了——比如：“完整分析孟德尔豌豆杂交实验（一）第三课时4班的学情报告要包含学生整体作答情况和学生的知识点掌握情况，并且给出详细的评讲建议以及针对个别学生的精准辅导。形成一份完整的报告。”—提问后，IMA知识库会自动识别“孟德尔豌豆杂交实验（一）第三课时4班”对应文件夹中的原始作答数据进行分析，并结合你归档的教材、课标、逻辑说明文档及“高中生物综合库”中的知识点标签，生成结构化报告。部分内容截图如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kumXH7uYmdT3HU94C6cFMzoExGTOBayMjvpvYy7oX5NLT6P6dBllyJHY2u0OzVhRlwRGhmge87UiaicqibgoE4HTZZdcOcLXeGlPWVXsHBoUfI/640?wx_fmt=png)
+
+该报告包含了学生整体得分率、各小题选项分布热力图、高频错误选项对应的知识点归因：班级的共性薄弱环节高度集中在“复杂情境下的概率计算”和“新信息（致死、不完全显性、群体）的迁移应用”上。这反映出学生：数学思维与生物学的结合能力不足。对分离定律的本质（配子形成时等位基因分离）理解不够深入，导致无法应对规则变化的题目。逻辑推理的严谨性和步骤性有待加强。
+
+另外，系统还给出了“讲评课教学设计建议”“个别学生精准辅导方案”等详细的可执行建议，具体如下图所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/kumXH7uYmdRpbc5gtvyU6DFx7pRrTJr3JicibRls0nCzFXoSYUYO3tBPkickuaf4ibIiayZbxEMLN1eZxaHiavEpLT3riaaIyrbbCyHhr1rOnw1BcI/640?wx_fmt=png)
+
+如果还有需要进一步分析的内容，可以直接在对话框中继续追问——比如“请聚焦第5题，详细分析学生在相关知识点上的作答逻辑链断裂点，并对比必修2教材和课标‘遗传与进化’模块要求，指出教学补救的3个关键干预节点。”系统会给出针对性的诊断结论与分层干预策略。当所有的问题追问完毕，可以直接点击分享导出腾讯文档。本人在实际操作的过程中并没有直接导出本地的功能，但是可以先导入知识库然后再打开文档后下载到本地。
+
+最后，也是最关键的一点，我将“学生生物限时练数据”文件夹共享链接发给我的学生，学生在双休期间，可以直接输入自己的姓名，然后和系统进行真的性的对话。例如输入：“我是张三（如果有重名，可以让学生输入学号）请帮我分析一下我这个学期以来在限时练中的错题分布、知识漏洞图谱，以及针对我个人薄弱点的个性化复习路径。”系统会快速给出响应，并且生成一份带可视化图表的个性化学习报告，方便学生进行针对性的查漏补缺，真正实现个性化教学。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/kumXH7uYmdTuBgMU9P3hYI2F1qjWJicDFrq5Ob5LnVJR2JXDqmgY06dH7pDGqibk0QGChLZavbj6FPOImsU5FYHYQhDYEficZGFPsZOqCgXAnw/640?wx_fmt=png&from=appmsg)
+
+总结一下：
+
+利用IMA知识库实现“教—学—评”闭环的关键，在于三个不可替代的前提：一是原始数据必须细到小题选项级（客观题）与采分点级（主观题），二是本地知识库一定要有相关的教材原文、课标要求、典型试题、教学逻辑说明文档，三是原始数据上传的时间学生成绩文件名和作业原始数据的文件名保持一致。当然在教师的使用过程中，不断和AI系统交互、校验知识库标签体系的准确性与教学逻辑的一致性——这一步不是技术操作，而是教师专业判断的深度介入。
+
+好了，今天的分享就到这里，对人工智能赋能教育感兴趣的老师可以关注本人的公众号，搜索相应的关键词直接跳转到相应的的文章，该公众号目前已经更新了和人工智能赋能教育教学相关原创文章近200篇，涵盖AI赋能教学的多个实践案例、工具操作指南、校本化实施路径与一线教师反思实录——从智能备课到学情诊断，从作业设计到课堂互动，每一篇都扎根真实教学场景，拒绝概念空转。
+
+需要特别说明的是：IMA知识库不是替代教师的“自动讲评机”，而是放大教师专业判断力的“认知协作者”。它无法自动识别学生涂改、书写潦草导致的误判，也不能理解未在知识库中结构化标注的教学逻辑断点——这些恰恰是教师必须亲手补全的“最后一公里”。
+
+  
+
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/h5F5jCrF2dFuicXiamhKLxSXnEbXsfK6V3DwUro8AaTZLbN4bfmDumpR2SmkhQ1mpUS8kNbFVQlzKibVic969gQxmw/0?wx_fmt=png) 樊华岗名班主任工作室
+
+ ![](data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3C!-- Icon from Lucide by Lucide Contributors - https://github.com/lucide-icons/lucide/blob/main/LICENSE --%3E%3Cg fill='none' stroke='%23888888' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M2.062 12.348a1 1 0 0 1 0-.696a10.75 10.75 0 0 1 19.876 0a1 1 0 0 1 0 .696a10.75 10.75 0 0 1-19.876 0'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/g%3E%3C/svg%3E) 阅读![](data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.154 6.797l-.177 2.758h4.009c1.346 0 2.359 1.385 2.155 2.763l-.026.148-1.429 6.743c-.212.993-1.02 1.713-1.977 1.783l-.152.006-13.707-.006c-.553 0-1-.448-1-1v-8.58a1 1 0 0 1 1-1h2.44l1.263-.03.417-.018.168-.015.028-.005c1.355-.315 2.39-2.406 2.58-4.276l.01-.16.022-.572.022-.276c.074-.707.3-1.54 1.08-1.883 2.054-.9 3.387 1.835 3.274 3.62zm-2.791-2.52c-.16.07-.282.294-.345.713l-.022.167-.019.224-.023.604-.014.204c-.253 2.486-1.615 4.885-3.502 5.324l-.097.018-.204.023-.181.012-.256.01v8.218l9.813.004.11-.003c.381-.028.72-.304.855-.709l.034-.125 1.422-6.708.02-.11c.099-.668-.354-1.308-.87-1.381l-.098-.007h-5.289l.26-4.033c.09-1.449-.864-2.766-1.594-2.446zM7.5 11.606l-.21.005-2.241-.001v8.181l2.45.001v-8.186z' fill='%23000'/%3E%3C/svg%3E) 赞 ![](data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E  %3Cg fill='none' fill-rule='evenodd'%3E    %3Cpath d='M0 0h24v24H0z'/%3E    %3Cpath fill='%23576B95' d='M13.707 3.288l7.171 7.103a1 1 0 0 1 .09 1.32l-.09.1-7.17 7.104a1 1 0 0 1-1.705-.71v-3.283c-2.338.188-5.752 1.57-7.527 5.9-.295.72-1.02.713-1.177-.22-1.246-7.38 2.952-12.387 8.704-13.294v-3.31a1 1 0 0 1 1.704-.71zm-.504 5.046l-1.013.16c-4.825.76-7.976 4.52-7.907 9.759l.007.287c1.594-2.613 4.268-4.45 7.332-4.787l1.581-.132v4.103l6.688-6.623-6.688-6.623v3.856z'/%3E  %3C/g%3E%3C/svg%3E) 分享 ![](data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'%3E  %3Cdefs%3E    %3Cpath id='a62bde5b-af55-42c8-87f2-e10e8a48baa0-a' d='M0 0h24v24H0z'/%3E  %3C/defs%3E  %3Cg fill='none' fill-rule='evenodd'%3E    %3Cmask id='a62bde5b-af55-42c8-87f2-e10e8a48baa0-b' fill='%23fff'%3E      %3Cuse xlink:href='%23a62bde5b-af55-42c8-87f2-e10e8a48baa0-a'/%3E    %3C/mask%3E    %3Cg mask='url(%23a62bde5b-af55-42c8-87f2-e10e8a48baa0-b)'%3E      %3Cg transform='translate(0 -2.349)'%3E        %3Cpath d='M0 2.349h24v24H0z'/%3E        %3Cpath fill='%23576B95' d='M16.45 7.68c-.954 0-1.94.362-2.77 1.113l-1.676 1.676-1.853-1.838a3.787 3.787 0 0 0-2.63-.971 3.785 3.785 0 0 0-2.596 1.112 3.786 3.786 0 0 0-1.113 2.687c0 .97.368 1.938 1.105 2.679l7.082 6.527 7.226-6.678a3.787 3.787 0 0 0 .962-2.618 3.785 3.785 0 0 0-1.112-2.597A3.687 3.687 0 0 0 16.45 7.68zm3.473.243a4.985 4.985 0 0 1 1.464 3.418 4.98 4.98 0 0 1-1.29 3.47l-.017.02-7.47 6.903a.9.9 0 0 1-1.22 0l-7.305-6.73-.008-.01a4.986 4.986 0 0 1-1.465-3.535c0-1.279.488-2.56 1.465-3.536A4.985 4.985 0 0 1 7.494 6.46c1.24-.029 2.49.4 3.472 1.29l.01.01L12 8.774l.851-.85.01-.01c1.046-.951 2.322-1.434 3.59-1.434 1.273 0 2.52.49 3.472 1.442z'/%3E      %3C/g%3E    %3C/g%3E  %3C/g%3E%3C/svg%3E) 推荐 ![](data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.242 7a2.5 2.5 0 0 0-2.5-2.5h-14a2.5 2.5 0 0 0-2.5 2.5v8.5a2.5 2.5 0 0 0 2.5 2.5h2.5v1.59a1 1 0 0 0 1.707.7l1-1a.569.569 0 0 0 .034-.03l1.273-1.273a.6.6 0 0 0-.8-.892v-.006L9.441 19.1l.001-2.3h-3.7l-.133-.007A1.3 1.3 0 0 1 4.442 15.5V7l.007-.133A1.3 1.3 0 0 1 5.742 5.7h14l.133.007A1.3 1.3 0 0 1 21.042 7v4.887a.6.6 0 1 0 1.2 0V7z' fill='%23000' fill-opacity='.9'/%3E%3Crect x='14.625' y='16.686' width='7' height='1.2' rx='.6' fill='%23000' fill-opacity='.9'/%3E%3Crect x='18.725' y='13.786' width='7' height='1.2' rx='.6' transform='rotate(90 18.725 13.786)' fill='%23000' fill-opacity='.9'/%3E%3C/svg%3E) 留言
